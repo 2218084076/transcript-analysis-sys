@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "transcript-analysis-sys"
+version = "0.1.0"
+description = ""
+authors = ["terry <terry@ppx.asia>"]
+readme = "README.md"
+packages = [{ include = "transcript_analysis_sys", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dynaconf = "^3.2.4"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+tiktoken = "^0.6.0"
+openai = "^1.13.3"
+python-multipart = "^0.0.9"
+groq = "^0.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+# --group dev
+isort = "^5.13.2"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

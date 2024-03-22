@@ -1,0 +1,32 @@
+# OpenAI api key
+API_KEY: ''
+MODEL: "gpt-4-1106-preview"
+
+GROQ_KEY: ''
+GROQ_API_KEY: ''
+GROQ_MODEL: 'mixtral-8x7b-32768'
+
+# log config
+LOG_PATH: '/tmp/atom'
+LOGLEVEL: INFO
+
+
+BASE_PATH: "/tmp/test"
+
+# TTS config
+TTS_OUTPUT_PATH: '/tmp/atom/tts_Output'
+UPLOAD_AUDIO_PATH: '/tmp/atom/audio_upload'
+
+# Experiment with different voices (alloy, echo, fable, onyx, nova, and shimmer)
+VOICE: 'alloy'
+
+# mysql config
+DATABASE_URI: 'sqlite:////tmp/test.db'
+DATABASE_NAME: 'chat_record'
+AZURE_OPENAI_KEY: ""
+SHOW_SQL: false
+
+AZURE_OPENAI_ENDPOINT: "https://foo.com/"
+API_VERSION: "foo"
+
+STT_URL: "http://localhost/recognition"
